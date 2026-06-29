@@ -1,7 +1,28 @@
+owennotes.txt
+
+.DS_Store
+.git
+.gitignore
+.ipynb_checkpoints
+.python-version
+pyproject.toml
+main.py
+uv.lock
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
 *$py.class
+# Python-generated files
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
 
 # C extensions
 *.so
