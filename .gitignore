@@ -8,6 +8,7 @@ owennotes.txt
 pyproject.toml
 main.py
 uv.lock
+owennotes.txt
 
 
 # Byte-compiled / optimized / DLL files
