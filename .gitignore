@@ -9,6 +9,7 @@ pyproject.toml
 main.py
 uv.lock
 owennotes.txt
+private_connections.py
 
 
 # Byte-compiled / optimized / DLL files
