@@ -13,6 +13,8 @@ import pandas as pd
 # ---------------------------------------------------------------------------
 
 SUPPORTED = {
+    # rate limiting (unique to DFLY)
+    "CL.THROTTLE",
     # Bitmap
     "BITCOUNT", "BITFIELD", "BITFIELD_RO", "BITOP", "BITPOS", "GETBIT", "SETBIT",
     # Connection
@@ -49,6 +51,8 @@ SUPPORTED = {
     "SADD", "SCARD", "SDIFF", "SDIFFSTORE", "SINTER", "SINTERCARD", "SINTERSTORE",
     "SISMEMBER", "SMEMBERS", "SMISMEMBER", "SMOVE", "SPOP", "SRANDMEMBER",
     "SREM", "SSCAN", "SUNION", "SUNIONSTORE",
+    # set expiration on member of a set (unique to Dragonfly)
+    "SADDEX",
     # Sorted Set
     "BZMPOP", "BZPOPMAX", "BZPOPMIN", "ZADD", "ZCARD", "ZCOUNT", "ZDIFF", "ZDIFFSTORE",
     "ZINCRBY", "ZINTER", "ZINTERCARD", "ZINTERSTORE", "ZLEXCOUNT", "ZMPOP", "ZMSCORE",
